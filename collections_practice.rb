@@ -39,8 +39,6 @@ def find_a(array)
   end
 end
 
-find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
-
 def sum_array(array)
   sum = 0
   array.each do |num|
@@ -60,8 +58,6 @@ end
      # end
 end
 
-sum_array([11,4,7,8,9,100,134]) #273
-
 def add_s(array)
   array.collect do |word|
     if array[1] == word
@@ -71,5 +67,3 @@ def add_s(array)
     end
   end
 end
-
-add_s(["hand","feet", "knee", "table"]) #["hands","feet", "knees", "tables"]
